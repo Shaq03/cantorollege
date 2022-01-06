@@ -1,0 +1,143 @@
+body {
+    background-color: #14213d;
+   }
+   h1{
+       color: #fca311;
+       font-family: garamond;
+   }
+    h2{
+     color: #fca311;
+     margin-left: 0px;
+     font-size: 40px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     margin-bottom: 20px;
+     margin-top: 20px;
+
+   } 
+   h4{
+    text-decoration: underline;
+    color: #fca311;
+    font-size: 35px;
+    font-family: garamond;
+   } 
+   
+    h3, h5, h6{
+        color: #fca311;
+        font-size: 30px;
+        font-family: garamond;
+   }
+   li{
+       color: #fca311
+   }
+    p {
+     color: #fca311   
+   }
+    table, th, td {
+    border: 2px solid #fca311;
+    color: #fca311 
+    
+   }
+    button {
+     border: none;
+     color: white;
+     padding: 15px 15px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 15px;
+     margin: 30px 1px;
+     cursor: pointer;
+     background-image: linear-gradient(#fca311, #f6d55c);
+    }
+    p{
+        font-size: 25px;
+    }
+    li{
+        font-size: 25px;
+    }
+    .container{
+        margin: 100px auto;
+        width: 100%;
+        padding: 8px;
+    }
+    img{
+        float: left;
+        width: 1000px;
+        height: 450px;
+        padding: 0 10px 0 0;
+    }
+    table, th, td {
+        width: 80%;
+        height: 40px;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;    
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgba(254, 236, 156, 1);
+
+}
+
+.wrapper h5{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #332902;
+}
+
+.wrapper .input_field{
+    margin-bottom: 60px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+}
+
+
+.wrapper textarea{
+    height: 80px;
+    resize: none;
+}
+
+.wrapper .btn input[type="submit"]{
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #14213d;
+    color: #e0e0e0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.wrapper #error_message{
+    margin-bottom: 20px;
+    padding: 0px;
+    background: #fe8b8e;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
